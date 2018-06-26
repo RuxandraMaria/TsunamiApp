@@ -130,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(Event earthquake) {
             if (earthquake == null) {
                 return;
+
             }
             updateUi(earthquake);
         }
